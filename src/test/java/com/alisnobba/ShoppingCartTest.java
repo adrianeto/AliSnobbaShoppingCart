@@ -18,4 +18,17 @@ public class ShoppingCartTest {
         //assert
         assertEquals(expected, actual);
     }
+    @Test
+    void testPriceSubtotalInCart(){
+        //setup
+        ShoppingCart myCart = new ShoppingCart();
+        //exec
+        int expectedTotalPrice = 8;
+        int actualTotalPrice = myCart.getPriceSubTotal();
+
+        //assert
+        assertEquals(expectedTotalPrice,actualTotalPrice );
+    }
+
+
 }

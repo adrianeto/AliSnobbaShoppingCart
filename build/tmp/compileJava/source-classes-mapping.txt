@@ -1,2 +1,4 @@
+com/alisnobba/Item.java
+ com.alisnobba.Item
 com/alisnobba/ShoppingCart.java
  com.alisnobba.ShoppingCart
